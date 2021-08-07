@@ -1,0 +1,6 @@
+SELECT
+    distinct City
+FROM
+    Station
+WHERE
+    REMAINDER(ID, 2) = 0;
